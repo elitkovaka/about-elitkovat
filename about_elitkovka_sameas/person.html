@@ -29,93 +29,142 @@
 
 <script type="application/ld+json">
 {
- "@context":"https://schema.org",
- "@graph":[
- {
-  "@type":"WebSite",
-  "@id":"https://about.elitkovat.com.ua/#website",
-  "url":"https://about.elitkovat.com.ua/",
-  "name":"About Elite Kovka"
- },
- {
-  "@type":"ProfilePage",
-  "@id":"https://about.elitkovat.com.ua/person.html#page",
-  "url":"https://about.elitkovat.com.ua/person.html",
-  "isPartOf":{"@id":"https://about.elitkovat.com.ua/#website"},
-  "mainEntity":{"@id":"https://orcid.org/0009-0005-1173-8187"}
- },
- {
-  "@type":"ImageObject",
-  "@id":"https://about.elitkovat.com.ua/person.html#photo",
-  "contentUrl":"https://about.elitkovat.com.ua/img/mykhailo-huzyo.jpg"
- },
- {
-  "@type":"Person",
-  "@id":"https://orcid.org/0009-0005-1173-8187",
-   "name":"Гузьо Михайло Петрович",
-   "givenName":"Михайло",
-   "familyName":"Гузьо",
-   "additionalName":"Петрович",
-   "alternateName":["Михайло Гузьо","Mykhailo Huzyo","Mykhailo Guzo"],
-   "description":"Михайло Гузьо — український дослідник AI Search, Knowledge Graph та Schema.org, засновник Elite Kovka, автор методології «Артефакт-маркетинг», дослідник цифрової ідентичності, семантичних сутностей та архітектури знань для AI Search і генеративних пошукових систем.",
-   "jobTitle": "AI Search & Knowledge Graph Researcher",
-"hasOccupation": {
-  "@type": "Occupation",
-  "name": "Researcher",
-  "occupationLocation": {
-    "@type": "Country",
-    "name": "Ukraine"
-  }
-},
-    "image":{"@id":"https://about.elitkovat.com.ua/person.html#photo"},
-   "url":"https://about.elitkovat.com.ua/person.html",
-   "mainEntityOfPage":{"@id":"https://about.elitkovat.com.ua/person.html#page"},
-   "email":"mailto:m.guzo@elitkovat.com.ua",
-   "identifier":{
-      "@type":"PropertyValue",
-      "propertyID":"ORCID",
-      "value":"0009-0005-1173-8187"
-   },
-   "subjectOf":[
-      {
-        "@type":"NewsArticle",
-        "url":"https://dev.ua/news/artefakt-1772703392",
-        "name":"Артефакт-маркетинг"
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://about.elitkovat.com.ua/#website",
+      "url": "https://about.elitkovat.com.ua/",
+      "name": "About Elite Kovka"
+    },
+    {
+      "@type": "ProfilePage",
+      "@id": "https://about.elitkovat.com.ua/person.html#page",
+      "url": "https://about.elitkovat.com.ua/person.html",
+      "isPartOf": {
+        "@id": "https://about.elitkovat.com.ua/#website"
       },
-      {
-        "@type":"CreativeWork",
-        "name":"Artifact Marketing",
-        "url":"https://videositemap.elitkovat.com.ua/artefakt-marketingu.html"
+      "mainEntity": {
+        "@id": "https://orcid.org/0009-0005-1173-8187"
       }
-   ],
-   "sameAs":[
-"https://orcid.org/0009-0005-1173-8187",
-"https://profile.google.com/cp/Cg0vZy8xMXhtOXlwMHRk",
-"https://www.google.com/search?kgmid=/g/11xm9yp0td",
-"https://scholar.google.com/citations?user=5xtDF8sAAAAJ",
-"https://news.google.com/topics/CAAqKAgKIiJDQkFTRXdvTkwyY3ZNVEY0YlRsNWNEQjBaQklDZFdzb0FBUAE",
-"https://www.linkedin.com/in/mykhailo-guzo/",
-"https://speka.ua/authors/mixailo.guzyo",
-"https://dev.ua/blogs/posts?author=17897978",
-"https://marketer.ua/ua/author/mykhailo-guzio/",
-"https://medium.com/@misha222g",
-"https://shop.vivlio.com/author/mihajlo-guzo/1502500",
-"https://books.apple.com/ch/author/%D0%BC%D0%B8%D1%85%D0%B0%D0%B9%D0%BB%D0%BE-%D0%B3%D1%83%D0%B7%D1%8C%D0%BE/id1815815595",
-"https://www.smashwords.com/profile/view/Mikhailo_Guz%27"
-],
-   "knowsAbout":["AI Search","Knowledge Graph","Schema.org","Entity Architecture","Semantic SEO"]
- },
- {
-  "@type":"BreadcrumbList",
-  "itemListElement":[
-   {"@type":"ListItem","position":1,"name":"Home","item":"https://about.elitkovat.com.ua/"},
-   {"@type":"ListItem","position":2,"name":"Person"}
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://about.elitkovat.com.ua/person.html#photo",
+      "contentUrl": "https://about.elitkovat.com.ua/img/mykhailo-huzyo.jpg"
+    },
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0009-0005-1173-8187",
+
+      "name": "Гузьо Михайло Петрович",
+      "givenName": "Михайло",
+      "familyName": "Гузьо",
+      "additionalName": "Петрович",
+
+      "alternateName": [
+        "Михайло Гузьо",
+        "Mykhailo Huzyo",
+        "Mykhailo Guzo"
+      ],
+
+      "description": "Михайло Гузьо — український дослідник AI Search, Knowledge Graph та Schema.org, засновник Elite Kovka, автор методології «Артефакт-маркетинг», дослідник цифрової ідентичності, семантичних сутностей та архітектури знань для AI Search і генеративних пошукових систем.",
+
+      "jobTitle": "AI Search & Knowledge Graph Researcher",
+
+      "hasOccupation": {
+        "@type": "Occupation",
+        "name": "Researcher",
+        "occupationLocation": {
+          "@type": "Country",
+          "name": "Ukraine"
+        }
+      },
+
+      "image": {
+        "@id": "https://about.elitkovat.com.ua/person.html#photo"
+      },
+
+      "url": "https://about.elitkovat.com.ua/person.html",
+
+      "mainEntityOfPage": {
+        "@id": "https://about.elitkovat.com.ua/person.html#page"
+      },
+
+      "email": "mailto:m.guzo@elitkovat.com.ua",
+
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ORCID",
+        "value": "0009-0005-1173-8187"
+      },
+
+      "subjectOf": [
+        {
+          "@type": "NewsArticle",
+          "url": "https://dev.ua/news/artefakt-1772703392",
+          "name": "Артефакт-маркетинг"
+        },
+        {
+          "@type": "CreativeWork",
+          "url": "https://videositemap.elitkovat.com.ua/artefakt-marketingu.html",
+          "name": "Artifact Marketing"
+        },
+        {
+          "@type": "WebPage",
+          "url": "https://elitkovaka.github.io/about-elitkovat/about_elitkovka_sameas/person.html",
+          "name": "GitHub Pages mirror"
+        },
+        {
+          "@type": "SoftwareSourceCode",
+          "url": "https://github.com/elitkovaka/about-elitkovat",
+          "name": "About Elite Kovka repository"
+        }
+      ],
+
+      "sameAs": [
+        "https://profile.google.com/cp/Cg0vZy8xMXhtOXlwMHRk",
+        "https://www.google.com/search?kgmid=/g/11xm9yp0td",
+        "https://scholar.google.com/citations?user=5xtDF8sAAAAJ",
+        "https://news.google.com/topics/CAAqKAgKIiJDQkFTRXdvTkwyY3ZNVEY0YlRsNWNEQjBaQklDZFdzb0FBUAE",
+        "https://www.linkedin.com/in/mykhailo-guzo/",
+        "https://speka.ua/authors/mixailo.guzyo",
+        "https://dev.ua/blogs/posts?author=17897978",
+        "https://marketer.ua/ua/author/mykhailo-guzio/",
+        "https://medium.com/@misha222g",
+        "https://shop.vivlio.com/author/mihajlo-guzo/1502500",
+        "https://books.apple.com/ch/author/%D0%BC%D0%B8%D1%85%D0%B0%D0%B9%D0%BB%D0%BE-%D0%B3%D1%83%D0%B7%D1%8C%D0%BE/id1815815595",
+        "https://www.smashwords.com/profile/view/Mikhailo_Guz%27"
+      ],
+
+      "knowsAbout": [
+        "AI Search",
+        "Knowledge Graph",
+        "Schema.org",
+        "Entity Architecture",
+        "Semantic SEO",
+        "Artifact Marketing"
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://about.elitkovat.com.ua/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Person"
+        }
+      ]
+    }
   ]
- }
- ]
 }
 </script>
-
 <style>
 body{background:#090909;color:#eee}
 .gold{color:#d4af37}
